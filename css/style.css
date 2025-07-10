@@ -44,3 +44,14 @@ nav{
    font-size: 34px;
    font-weight: 900;
 }
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 65px;
+    font-weight: bold;
+    max-width: 905px;
+    margin: 0 auto;
+    margin-bottom: 37px;
+    margin-top: 158px;
+}
