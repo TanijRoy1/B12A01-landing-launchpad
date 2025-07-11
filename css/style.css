@@ -144,3 +144,16 @@ main section{
 .avatar-title p{
     color: #757575dc;
 }
+
+/* -----------Focus Section--------- */
+.focus-section{
+    padding: 71px 150px;
+    text-align: center;
+}
+.focus-section *{
+    margin-top: 20px;
+}
+.focus-section img{
+    width: 100%;
+    border-radius: 48px;
+}
