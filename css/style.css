@@ -5,7 +5,6 @@
     padding: 0;
 }
 body{
-    font-family: "Inter", sans-serif;
     font-family: "Raleway", sans-serif;
     background-color: #f5f8ff;
 }
@@ -146,9 +145,11 @@ main section{
 }
 
 /* -----------Focus Section--------- */
-.focus-section{
+.focus-section .inner{
     padding: 71px 150px;
     text-align: center;
+    background-color: #ffffff;
+    border-radius: 14px;
 }
 .focus-section *{
     margin-top: 20px;
@@ -156,4 +157,39 @@ main section{
 .focus-section img{
     width: 100%;
     border-radius: 48px;
+}
+
+/* ----------Contact Section---------  */
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 115px;
+}
+.left h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.right label, .right input, .right textarea{
+    display: block;
+    width: 433px;
+}
+.right label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 19px;
+    margin-bottom: 10px;
+}
+.right input, .right textarea{
+    padding: 20px 32px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+input[type="submit"]{
+    width: 497px;
+    margin-top: 19px;
 }
