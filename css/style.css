@@ -13,13 +13,18 @@ body{
     margin: 0 auto;
 }
 .btn{
-        background: #4E47FF;
+    background: #4E47FF;
     color: #ffffff;
     padding: 12px 36px;
     font-size: 16px;
     font-weight: bold;
     border: none;
     border-radius: 7px;
+}
+.btn:hover{
+    background-color: yellow;
+    cursor: pointer;
+    color: #000;
 }
 .heading{
     color: #252432;
@@ -228,4 +233,8 @@ footer{
     color: #8987A1;
     font-size: 18px;
     font-weight: 500;
+}
+.footer-content ul li a:hover{
+    text-decoration: underline;
+    color: #4E47FF;
 }
